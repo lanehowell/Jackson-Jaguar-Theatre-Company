@@ -19,6 +19,8 @@ header{
     justify-content: center;
     align-items: center;
 
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: darken;
     background-image: url("https://github.com/lanehowell/Jackson-Jaguar-Theatre-Company/blob/main/assets/images/section-2/group-photo.jpg?raw=true");
     background-size: cover;
     background-position: center;
@@ -31,13 +33,14 @@ header{
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    max-width: 30%;
+    max-width: 800px;
     text-align: center;
 }
 
 #hero-title{
     color: white;
-    font-size: 3.5rem;
+    font-size: 5rem;
+    text-shadow: 2px 2px 10px black;
 }
 
 #hero-description{
@@ -53,4 +56,45 @@ header{
     font-size: 1.15rem;
     margin-top: 2rem;
     cursor: pointer;
+}
+
+#about-section{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-block: 112px;
+}
+
+#about-section > *{
+    flex: 1;
+    max-width: 400px;
+}
+
+#performance-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+#performance-title{
+    font-size: 3rem;
+}
+
+#performance-description{
+    margin-bottom: 60px;
+}
+
+#performance-img-wrapper{
+    display: flex;
+    gap: 50px;
+    max-width: 100%;
+}
+
+#performance-img-wrapper > *{
+    flex: 1;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    max-height: 600px;
 }
