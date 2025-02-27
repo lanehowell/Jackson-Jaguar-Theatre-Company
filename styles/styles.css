@@ -8,10 +8,26 @@ header{
 
 #header-links{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 
     list-style: none;
     cursor: pointer;
+    height: 100%
+}
+
+.header-link{
+    display: flex;
+    align-items: center;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+    font-size: 1.05rem;
+    height: 100%
+}
+
+.header-link:hover{
+    color: black;
+    border-bottom: 1px solid black;
 }
 
 #hero-section{
@@ -24,8 +40,8 @@ header{
     background-image: url("https://github.com/lanehowell/Jackson-Jaguar-Theatre-Company/blob/main/assets/images/section-2/group-photo.jpg?raw=true");
     background-size: cover;
     background-position: center;
-    height: 720px;
     height: calc(100vh - 70px);
+    min-height: 450px;
 }
 
 #hero-section-content{
@@ -64,7 +80,7 @@ header{
     display: flex;
     justify-content: center;
     gap: 80px;
-    padding-block: 112px;
+    padding-block: 80px;
 }
 
 #about-section > *{
@@ -83,7 +99,8 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-bottom: 100px;
+    background-color: rgb(252, 252, 252);
+    padding-block: 80px;
 }
 
 #performance-title{
@@ -100,7 +117,6 @@ header{
     flex-wrap: wrap;
     gap: 50px;
     max-width: 100%;
-    overflow-y: hidden;
 }
 
 #performance-img-wrapper > div{
@@ -116,8 +132,13 @@ header{
     background-position: center;
     height: 500px;
     width: 500px;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
     cursor: pointer;
+}
+
+#performance-img-wrapper > div:hover{
+    transform: scale(1.01);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .25), -5px -5px 10px rgba(255, 255, 255, .6);
 }
 
 .year-text{
@@ -134,6 +155,7 @@ header{
     flex-direction: column;
     gap: 30px;
     height: 100vh;
+    padding-block: 80px;
 }
 
 #schedule-title{
