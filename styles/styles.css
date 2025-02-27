@@ -19,7 +19,7 @@ header{
     justify-content: center;
     align-items: center;
 
-    background-image: url("/assets/images/section-2/group-photo.jpg");
+    background-image: url("assets/images/section-2/group-photo.jpg");
     background-size: cover;
     background-position: center;
     height: 720px;
