@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background-color: white;
+    padding-inline: 30px;
+}
+
+#header-links{
+    display: flex;
+    gap: 20px;
+
+    list-style: none;
+    cursor: pointer;
+}
+
+#hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("/assets/images/section-2/group-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+}
+
+#hero-section-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+#hero-title{
+    color: white;
+    font-size: 3.5rem;
+}
+
+#hero-description{
+    color: white;
+    line-height: 150%;
+}
+
+#learn-more-button{
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.15rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
