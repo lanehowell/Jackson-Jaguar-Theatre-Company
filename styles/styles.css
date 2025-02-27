@@ -25,6 +25,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 720px;
+    height: calc(100vh - 70px);
 }
 
 #hero-section-content{
