@@ -131,5 +131,18 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+}
+
+#schedule-title{
+    font-size: 3rem;
+}
+
+iframe{
+    height: 85%;
+    width: 85%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .25), -5px -5px 10px rgba(255, 255, 255, .6);
 }
