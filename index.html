@@ -20,9 +20,9 @@
             <div id="header-links">
                 <button type="button" onclick="location.href='index.html'" class="header-link">Home</button>
                 <button type="button" onclick="location.href='calendar.html'" class="header-link">Calendar</button>
-                <button type="button" class="header-link">Shows</button>
+                <button type="button" onclick="location.href='shows.html'" class="header-link">Shows</button>
                 <button type="button" onclick="location.href='gallery.html'" class="header-link">Gallery</button>
-                <button type="button" class="header-link">About Us</button>
+                <button type="button" onclick="location.href='about-us.html'" class="header-link">About Us</button>
             </div>
         </header>
         <main>
@@ -34,19 +34,20 @@
                 </div>
             </section>
             <section id="about-section">
-                <h2 id="about-title">Welcome to the Jackson Middle School Theatre Group: Where Creativity Takes Center Stage</h2>
-                <p id="about-description">The Jackson Middle School Theatre Group has been inspiring young performers since its inception in 2005. Our mission is to cultivate creativity, teamwork, and confidence through the performing arts. We value inclusivity, artistic expression, and the joy of storytelling, providing a nurturing environment for all students.</p>
+                <h2 class="hidden" id="about-title">Welcome to the Jackson Middle School Theatre Group: Where Creativity Takes Center Stage</h2>
+                <p class="hidden" id="about-description">The Jackson Middle School Theatre Group has been inspiring young performers since its inception in 2005. Our mission is to cultivate creativity, teamwork, and confidence through the performing arts. We value inclusivity, artistic expression, and the joy of storytelling, providing a nurturing environment for all students.</p>
             </section>
             <section id="performance-section">
-                <h2 id="performance-title">Performance Highlights</h2>
-                <p id="performance-description">Explore our captivating moments from past productions!</p>
+                <h2 class="hidden-up" id="performance-title">Performance Highlights</h2>
+                <p class="hidden-up" id="performance-description">Explore our captivating moments from past productions!</p>
                     <div id="performance-img-wrapper">
-                        <div class="gallery-year-wrapper">
+                        <div class="hidden-up" class="gallery-year-wrapper">
                             <p class="year-text">2024</p>
                         </div>
                     </div>
             </section>
         </main>
     </main>
+    <script defer src="./scripts/index.js"></script>
 </body>
 </html>

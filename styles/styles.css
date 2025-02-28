@@ -113,6 +113,7 @@ header{
 
 #about-description{
     line-height: 150%;
+    transition-delay: 100ms;
 }
 
 #performance-section{
@@ -188,4 +189,36 @@ header{
     #performance-description{
         margin-bottom: 30px;
     }
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+.hidden{
+    opacity: 0;
+    transition: all .5s;
+    filter: blur(5px);
+    transform: translateX(-25%);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hidden-up{
+    opacity: 0;
+    transition: all .5s;
+    filter: blur(2px);
+    transform: translateY(25%);
+}
+
+.show-up{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
 }
