@@ -48,3 +48,15 @@ header{
 .header-link:hover::after{
     transform: scale(1, 1);
 }
+
+@media screen and (max-width: 530px) {
+    #header-links{
+        gap: 0;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    header{
+        padding-inline: 0;
+    }
+}
