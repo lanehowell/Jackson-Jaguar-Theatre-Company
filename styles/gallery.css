@@ -7,8 +7,9 @@
 }
 
 .gallery-title{
-    font-size: 3rem;
+    font-size: clamp(2rem, 3vw, 3rem);
     margin-block: 30px;
+    text-align: center;
 }
 
 #gallery-wrapper{
