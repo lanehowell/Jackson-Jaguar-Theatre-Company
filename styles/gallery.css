@@ -1,0 +1,31 @@
+#main-gallery-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+.gallery-title{
+    font-size: 3rem;
+    margin-block: 30px;
+}
+
+#gallery-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: flex-start;
+    place-content: center;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#main-gallery-section img{
+    width: 100%;
+}
